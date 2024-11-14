@@ -1,17 +1,158 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @use"./layout/navbar";
- *   | ^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss/style.scss 2:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @use\"./layout/navbar\";\a   \2502  ^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss/style.scss 2:1  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
+nav {
+  background-color: #843F3F !important;
 }
+nav div {
+  justify-content: center !important;
+}
+nav div ul li a {
+  color: white !important;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: white;
+  font-family: "Poppins", system-ui !important;
+}
+
+.face {
+  color: #150DFF;
+}
+
+.linkenId {
+  color: #096BFD;
+}
+
+.insta {
+  background: linear-gradient(to bottom, #f308c0, #ff1c86, #ff6b4d, #ffab0c, #f5e103);
+  border-radius: 2rem;
+}
+
+.wp {
+  color: rgb(9, 183, 9);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+  font-size: 75%;
+  text-align: center;
+  background-color: #843F3F;
+}
+
+.carousel-inner > .item > img {
+  width: 640px;
+  height: 360px;
+}
+
+.product {
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
+.btnconsulta {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: #00FF00;
+}
+
+.btnconsulta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnconsulta::after {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btnconsulta::after {
+  background-color: #fff;
+}
+
+.btnconsulta:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.img-prod {
+  transition: all 0.2s ease-in-out;
+  align-content: center;
+}
+.img-prod:hover {
+  transform: scale(0.5);
+}
+
+.somos {
+  font-family: "Edu AU VIC WA NT Pre", cursive !important;
+  color: rgb(111, 8, 8) !important;
+}
+
+.MisionVision {
+  font-family: "Poppins", system-ui !important;
+  color: rgb(206, 76, 76) !important;
+}
+
+.cardme {
+  width: 260px;
+  padding: 20px 1px;
+  margin: 10px 0;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4), 0 4px 6px -4px rgba(33, 150, 243, 0.4);
+  border-radius: 10px;
+  background: linear-gradient(to top, #051937, #444964, #808195, #bfbec8, #ffffff);
+}
+.cardme .cardtext {
+  color: white;
+}
+
+.cardprod {
+  width: 260px;
+  padding: 20px 1px;
+  margin: 10px 0;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 15px -3px rgba(33, 150, 243, 0.4), 0 4px 6px -4px rgba(33, 150, 243, 0.4);
+  border-radius: 10px;
+  background: linear-gradient(to top, #051937, #444964, #808195, #bfbec8, #ffffff);
+}
+.cardprod .cardtext {
+  color: white;
+}
+
+.card {
+  margin-right: 20px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
