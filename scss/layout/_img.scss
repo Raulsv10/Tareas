@@ -1,0 +1,7 @@
+.img-prod{
+    transition: all .2s ease-in-out;
+    align-content: center;
+        &:hover {
+            transform: scale(0.5);
+        }
+}

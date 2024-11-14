@@ -1,0 +1,31 @@
+.cardme {
+    width: 260px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    border-radius: 10px;
+    background: linear-gradient(to top, #051937, #444964, #808195, #bfbec8, #ffffff);
+    .cardtext{
+        color: white;
+    }
+}
+
+.cardprod {
+    width: 260px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    border-radius: 10px;
+    background: linear-gradient(to top, #051937, #444964, #808195, #bfbec8, #ffffff);
+    .cardtext{
+        color: white;
+    }
+}
+
+.card{
+    margin-right:20px!important;
+}

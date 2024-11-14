@@ -1,0 +1,13 @@
+
+@mixin stylearticle($family, $type, $color) {
+    font-family: $family, $type !important;
+    color: $color !important;
+}
+
+.somos{
+    @include stylearticle("Edu AU VIC WA NT Pre", cursive, rgb(111, 8, 8)) ;
+}
+
+.MisionVision{
+    @include stylearticle("Poppins", system-ui,rgb(206, 76, 76));
+}

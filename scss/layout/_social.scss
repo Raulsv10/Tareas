@@ -1,0 +1,22 @@
+$face-color: #150DFF;
+$link-color: #096BFD;
+$whas-color: rgb(9, 183, 9);
+
+.face{
+    color: $face-color;
+}
+
+.linkenId
+{
+    color: $link-color;
+}
+
+.insta
+{
+    background: linear-gradient(to bottom, #f308c0, #ff1c86, #ff6b4d, #ffab0c, #f5e103);
+    border-radius: 2rem;
+}
+
+.wp{
+    color: $whas-color;
+}
