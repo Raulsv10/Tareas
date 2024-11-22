@@ -4,8 +4,8 @@ $ejex:1.4;
 $ejey:1.6;
 
 $color:(
-    Success:#00FF00,
-    find:#3255D3
+    Success:#b3391d,
+    find:#ffffff
 );
 
 .btnconsulta{
@@ -20,7 +20,7 @@ $color:(
     border: none;
     font-family: inherit;
     font-weight: 500;
-    color: black;
+    color: white;
     background-color: map.get($color,Success );
 }
 
